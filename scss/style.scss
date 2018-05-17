@@ -3,10 +3,12 @@ $primary-color: #d3a91f;
 $secondary-color: #141212;
 $width: 100%;
 $space: 20px;
+$padding:80px;
+
 
 html, body, p , ul{
     margin: 0;
-    padding: 0;
+    padding: $padding;
   }
   body {
     font: 100% $font-stack;
